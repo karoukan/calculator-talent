@@ -1,2 +1,2 @@
-Copyright (c) 2018 Renaud Caldini
+Copyright (c) 2018 Renaud
 
