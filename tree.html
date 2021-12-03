@@ -1,0 +1,152 @@
+<html>
+<head>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>ReckoningDB - Rend Talent Calculator</title>
+   
+	<link rel="icon" type="image/png" href="assets/images/favicon.png" />
+	    <style type="text/css">
+        .card-banner {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    background-size: cover;
+    border-radius: 5px;
+}
+.card-banner .card-body {
+    background-size: cover;
+    position: relative;
+    z-index: 10;
+}
+
+
+/* overlay effects */
+.overlay-cover {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+.overlay {
+    background-color: rgba(0,0,0,0.65);
+    z-index: 10;
+    padding: 1.25rem;
+    color: #fff;
+}
+.overlay-grad {
+    position: relative;
+}
+
+.overlay-grad::before {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #e83e8c;
+    background: -webkit-gradient(linear, left top, right bottom, from(#007bff), to(#e83e8c));
+    background: linear-gradient(to bottom right, #007bff, #e83e8c);
+    opacity: .6;
+    transition: .5s;
+}
+.overlay-grad:hover:before{
+     opacity: .9;
+}
+
+        .banner-aboutus-img {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 42px 0 55px;
+    position: relative;
+    width:100%;
+}
+.banner-aboutus-img::before {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+.banner-aboutus h1 {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40px;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.banner-aboutus-img::before {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+.banner-aboutus h1 {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40px;
+    position: relative;
+    text-transform: capitalize;
+}
+.breadcrumbs_path {
+    color: #fff;
+    margin-top: 8px;
+    position: relative;
+    z-index: 9;
+}
+.breadcrumbs_path > a {
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+    </style>
+	    <script type="type/javascript">
+<!-- https://docs.google.com/spreadsheets/d/1rumz5ermzGKPvY2-hwg0HplocUPyRs-vLTjYYxV-6Yk/edit#gid=0 -->
+    </script>
+</head>
+<body>
+    <div id="container">
+        <center><img src="assets/images/aa.png"></center>
+        <div id="wrapper">
+			<aside class="col-sm-4">
+				<div class="card-banner align-items-end" style="height:520px; background-image: url('https://www.rendgame.com/storage/app/uploads/public/5ad/7c0/841/5ad7c0841388f429124667.jpeg');">
+					<article class="overlay m-4 w-100">
+						<h2 class="card-title">Alpha<br /><br />Tree</h2>
+					</article>
+					<div class="card-img-overlay"><div id="calculator"></div></div>
+				</div>
+			</aside>
+        </div>
+		
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">Provided by Karoukan - All data there can be changed. This tree calculator is based on informations from discord and docs google sheet.<br />
+		No data in this trees (and this website) are approved by Frostkeep studio and can not be considered identical to the game for now.
+		</span><br /><br /><br />
+		
+			<div class="container">
+				<span class="text-muted">Any suggestion ? <a href="mailto:contact@reckoningdb.pw">Send me there</a></span><br /><br /><br />		
+					<div class="footer-copyright py-3 text-center">© 2018 Copyright<a href="http://reckoningdb.pw"> ReckoningDB </a></div>
+			</div>
+		</footer>
+    </div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="assets/js/data.js"></script>
+    <script type="text/javascript" src="assets/js/utilities.js"></script>
+    <script type="text/javascript" src="assets/js/calculator.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
